@@ -41,6 +41,53 @@
             text-align: center;
             padding: 10px;
         }
+
+        /* Media Queries for smaller screens */
+@media only screen and (max-width: 768px) {
+    /* For tablets and smaller devices */
+    
+    ul {
+        flex-direction: column;  /* Stack the list vertically */
+        text-align: center;      /* Center the text */
+    }
+    
+    table {
+        width: 90%;  /* Make table take more width */
+    }
+
+    img {
+        width: 200px;  /* Reduce image size on smaller screens */
+    }
+
+    h1 {
+        font-size: 24px; /* Smaller font size for the heading */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* For mobile devices */
+
+    ul {
+        padding: 5px; /* Less padding for mobile */
+    }
+
+    ul li {
+        font-size: 18px; /* Smaller font size for list items */
+    }
+
+    table {
+        width: 100%;  /* Full width for mobile */
+        font-size: 14px; /* Smaller font size for table */
+    }
+
+    img {
+        width: 150px;  /* Further reduce image size */
+    }
+
+    h1 {
+        font-size: 20px; /* Even smaller font size for mobile */
+    }
+}
     </style>
     <body> 
     <header>
